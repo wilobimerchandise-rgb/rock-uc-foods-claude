@@ -1,0 +1,35 @@
+{
+  "name": "ruc-foods",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "menu:dryrun": "tsx scripts/menu-dryrun.ts"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^3.4.4",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.43.4",
+    "next": "14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.10",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "exceljs": "^4.4.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "tsx": "^4.10.2",
+    "typescript": "^5.4.5",
+    "vitest": "^2.1.9"
+  }
+}

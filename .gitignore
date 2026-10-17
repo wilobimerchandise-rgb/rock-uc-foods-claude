@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+coverage
+*.log
+*.tsbuildinfo
+next-env.d.ts
+
+# secrets: never commit real keys
+.env*
+!.env.example
